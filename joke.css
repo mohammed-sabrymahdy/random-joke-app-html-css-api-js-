@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(232, 124, 23);
+}
+.wrapper {
+  width: 80vmin;
+  padding: 50px 40px;
+  background-color: #151516;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+span {
+  display: block;
+  text-align: center;
+  font-size: 100px;
+}
+p {
+  text-align: center;
+  color: white;
+  line-height: 35px;
+  overflow-wrap: break-word;
+  margin: 30px 0;
+  font-weight: 400;
+  opacity: 0;
+}
+.fade {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(232, 124, 23);
+  color: #151516;
+  font-size: large;
+  display: block;
+  font-weight: 600;
+  margin: 0 auto;
+}
